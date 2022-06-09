@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    $(function(){
+      $("input[type=checkbox]").on("click", function(){
+        $.post(
+          "check_on.php"
+		);
+      });
+      $("input[type=checkbox]").off("click", function(){
+        $.post(
+          "check_off.php"
+		);
+      });
+    });
+    </script>
+	
+	$(".button").on('click', function(){ 
+		if (! $("#check").is(':checked')) { 
+			$(this).toggleClass('active')
+		}
+	});

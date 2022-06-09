@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #31353E; 
+}
+.wapper{
+
+}
+.header {
+	background-color: #3E4651;
+	padding: 20px 0 20px 15px;
+} 
+.header h1 {
+	font: 24px/30px verdana, Tahoma, Arial;
+	font-weight: bold;
+	color: #FAF7F7;
+	text-transform: uppercase;
+}
+.header h2 {
+	font-size: 18px;
+	color: #D3D3D3;
+}
+.content {
+	padding: 10px;
+	color: #3E4651;
+	background-color: #EE923D;
+	margin-top: 5px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+	.title {
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.text {
+		font-size: 17px;
+    	font-weight: bold;
+    	padding-left: 10px;
+	}	
+		.submit{
+			display: inline-block;
+		    width: 130px;
+		    height: 32px;
+		    text-align: center;
+		    font: 17px/30px Tahoma;
+		    font-weight: bold;
+		    color: #3E4651;
+		    background: transparent;
+		    text-decoration: none;
+		    border: 1px solid #3E4651;
+		}
+.center {
+	text-align: center;
+}
+.meter { 
+	height: 15px;  /* Can be anything */
+	width: 350px;
+	margin-top: 5px;
+	position: relative;
+	background: #3e4651;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+}
+.meter > span {
+	display: block;
+	height: 100%;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #EE923D;
+	position: relative;
+	overflow: hidden;
+}
+.red > span {
+  background-color: #E23B3B;
+}
